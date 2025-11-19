@@ -46,6 +46,9 @@ def plots_model():
     
     # Añadir barra de color
     plt.colorbar(scatter)
+    
+    # Guardar gráfico
+    plt.savefig('clusters_plot.png')
     plt.show()
 
 # Ejecutar la función de graficado
