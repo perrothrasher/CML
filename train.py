@@ -8,3 +8,5 @@ import statsmodels.formula.api as sm
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from mpl_toolkits.mplot3d import Axes3D
+
+dataset = pd.read_csv("data.csv" , sep = ",")
